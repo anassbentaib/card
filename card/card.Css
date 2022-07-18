@@ -1,0 +1,135 @@
+/* .section-header .line{
+    display: block;
+    height: 5px;
+    background-color:#6195ff ;
+    width: 60px;
+    margin:0px auto 70px auto;
+    } */
+
+
+    
+
+body{
+    background: #232427;
+}
+
+.item{
+    padding: 100px 0px;
+}
+ 
+
+.container{
+    width: 85%;
+    margin: auto; 
+       
+} 
+
+.item-logo {
+    float: left;
+    padding: 100px 70px;
+    background-color: #232427;
+    border-radius:0px 0px 0px 0px;
+    border: 2px solid #232427;
+    box-shadow:  15px 15px 10px 5px rgb(0 0 0/ 51%),
+    -10px -10px 10px 5px rgb(108 108 108/20% ),
+        inset 15px 15px 10px 5px rgb(0 0 0/ 51%), 
+        inset -10px -10px 10px 5px rgb(108 108 108/20% );
+} 
+
+ 
+.item-logo-group .item-logo{
+    margin: 0 4%;
+       
+} 
+ 
+.fa-windows {
+    padding: 10px 0px;
+    color: #fff; 
+}
+
+.fa-windows:hover{
+text-shadow: 0 0 50px #1c28d3,
+             0 0 100px#1c28d3,
+            0 0 150px #1c28d3,
+            0 0 200px #1c28d3,
+            0 0 250px #1c28d3,
+            0 0 300px #1c28d3;
+ 
+}
+
+.fa-apple {
+    padding: 10px 0px;
+    color: #fff; 
+}
+
+
+.fa-apple:hover{
+text-shadow: 0 0 50px #22a3df,
+            0 0 100px #22a3df,
+            0 0 150px #22a3df,
+            0 0 200px #22a3df,
+            0 0 250px #22a3df,
+            0 0 300px #22a3df;
+
+}
+
+.fa-diamond {
+    padding: 10px 0px;
+    color: #fff; 
+}
+
+.fa-diamond:hover{
+text-shadow: 0 0 50px #df22c0,
+            0 0 00px  #df22c0,
+            0 0 150px #df22c0,
+            0 0 200px #df22c0,
+            0 0 250px #df22c0,
+            0 0 300px #df22c0;
+
+}
+
+
+
+.item-logo .item-logo-desc{
+    font-size: 10px;
+    color: #fff;
+    padding: 6px 10px;
+}
+
+ .item-logo .item-logo-titel{
+    font-size: 18px; 
+    color: #fff;
+
+} 
+
+/* transform: scale(w,h); */
+
+
+ .item-logo .line{
+    display: block;
+    height: 2px;
+    margin: 10px 0px;
+    background-color:#fff ;
+    width: 70px;
+    animation: moveBorder 2s infinite linear; 
+}  
+
+
+
+@keyframes moveBorder {
+ 
+0%{
+    transform: scale(0);
+    transform-origin:left;
+    background-color: #df22c0;
+}  
+
+50%{
+    transform: scale(1);
+    background-color: #df22c0;
+}
+
+100%{
+    background-color: #df22c0;
+}
+}
